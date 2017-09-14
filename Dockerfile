@@ -19,6 +19,8 @@ RUN apt-get install -y\
   mesa-common-dev-lts-wily\
   libgles2-mesa-lts-wily\
   libwayland-egl1-mesa-lts-wily\
+  tmux\
+  vim\
   libopenvg1-mesa
 
 # Dependencies required to build rviz

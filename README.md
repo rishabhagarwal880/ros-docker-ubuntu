@@ -2,7 +2,7 @@
 The docker container to run Ubuntu 14.04 with ROS-indigo on Ubuntu 16.04. Please make sure that the docker CE is installed on the system and the docker deamon is running before building or running the container.
 
 
-## Build the contaner Image
+## Build the container Image
 The image needs to be build everytime we make some changes in the Dockerfile. To build the image use the following command ''sudo ./build.sh $IMAGE_NAME(eg. ros-indigo)''. It might take some time for the first time to build the image but once you build the image you can use the same image.
 
 

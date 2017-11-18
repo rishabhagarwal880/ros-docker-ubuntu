@@ -14,8 +14,10 @@ popd > /dev/null
 set -e
 
 # Run the container with shared X11
-docker run -it\
+docker run -it --rm \
   --net=host\
+  --pid=host\
+  --privileged\
   -e SHELL\
   -e DISPLAY=$DISPLAY\
   -e DOCKER=1\
